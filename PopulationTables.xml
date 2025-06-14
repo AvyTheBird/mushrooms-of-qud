@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<populations>
+    <!-- Common Population for all Fungi-->
+    <population Name="StartingGear_FungiCommon">
+        <group Name="Items" Style="pickeach">
+
+            <table Name="StartingGear_Common" />
+            <table Name="HumanoidEquipment 1" />
+            <object Blueprint="HalfFullWaterskin" Number="2-3" />
+            <object Blueprint="Plump Mushroom" Number="3-4" />
+
+        </group>
+    </population>
+
+
+    <population Name="StartingGear_FungiRanger">
+        <group Name="Items" Style="pickeach">
+
+            <table Name="StartingGear_FungiCommon"/>
+
+        </group>
+    </population>
+
+
+    <population Name="StartingGear_FungiWax">
+        <group Name="Items" Style="pickeach">
+            <object Blueprint="WaxHands" />
+            <table Name="StartingGear_FungiCommon"/>
+            
+        </group>
+    </population>
+
+
+</populations>
