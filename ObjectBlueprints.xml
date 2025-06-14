@@ -3,13 +3,12 @@
     <object Name="FungusBody" Inherits="SapientMutatedFungus">
         <stat Name="Strength" sValue="10,1d3,(t)d1" />
         <stat Name="Agility" sValue="10,1d3,(t)d1" />
-        <stat Name="Toughness" sValue="16,1d3,(t)d1" />
+        <stat Name="Toughness" sValue="12,1d3,(t)d1" />
         <stat Name="Intelligence" sValue="8,1d3" />
-        <stat Name="Willpower" sValue="16,1d3" />
+        <stat Name="Willpower" sValue="12,1d3" />
         <stat Name="Ego" sValue="8,1d3" />
 
         <part Name="Brain" Mobile="True"/>
-        <part Name="Render" RenderString="012"/>
 
     </object>
 

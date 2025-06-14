@@ -6,8 +6,8 @@
 
             <table Name="StartingGear_Common" />
             <table Name="HumanoidEquipment 1" />
-            <object Blueprint="HalfFullWaterskin" Number="2-3" />
-            <object Blueprint="Plump Mushroom" Number="3-4" />
+            <object Blueprint="HalfFullWaterskin" Number="3-4" />
+            <object Blueprint="Plump Mushroom" Number="4-5" />
 
         </group>
     </population>
@@ -17,6 +17,8 @@
         <group Name="Items" Style="pickeach">
 
             <table Name="StartingGear_FungiCommon"/>
+            <object Name="Short Bow"/>
+            <object Name="Wooden Arrow" Number="40-50"/>
 
         </group>
     </population>

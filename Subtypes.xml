@@ -21,6 +21,10 @@
 				<skill Name="Cudgel_Bludgeon" />
 				<skill Name="Endurance_Weathered" />
 			</skills>
+			<reputations>
+      			<reputation With="Fungi" Value="100" />
+    		</reputations>
+
 			<extrainfo>Starts with Waxflab infection on hands</extrainfo>
 		</subtype>
 	</class>
