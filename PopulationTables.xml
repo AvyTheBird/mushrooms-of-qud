@@ -17,8 +17,11 @@
         <group Name="Items" Style="pickeach">
 
             <table Name="StartingGear_FungiCommon"/>
+            <object></object>
             <object Name="Short Bow"/>
             <object Name="Wooden Arrow" Number="40-50"/>
+
+            <object Name="PuffInfection"/>
 
         </group>
     </population>
@@ -26,9 +29,25 @@
 
     <population Name="StartingGear_FungiWax">
         <group Name="Items" Style="pickeach">
-            <object Blueprint="WaxHands" />
             <table Name="StartingGear_FungiCommon"/>
+            <table Name="Food 1" Number="3-5" />
+            <object Name="Steel Hammer" />
+
+            <object Blueprint="WaxInfection" />
             
+        </group>
+    </population>
+
+
+    <population Name="StartingGear_Cave">
+        <group Name="Items" Style="pickeach">
+            <table Name="StartingGear_FungiCommon" />
+            <table Name="Junk 1" Number="3-4" />
+            <table Name="Books" Number="3" />
+            <object Blueprint="Spectacles" Number="1" />
+            <object Blueprint="Wrench" />
+
+            <object Blueprint="LuminousInfection" />
         </group>
     </population>
 

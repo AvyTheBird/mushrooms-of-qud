@@ -3,7 +3,7 @@
 
 	<class ID="Mushrooms" ChargenTitle="choose calling" SingularTitle="calling">
 
-		<subtype Name="Mycelium Ranger" Gear="StartingGear_FungiRanger" Tile="Creatures/mush1.png" DetailColor="g">
+		<subtype Name="Jungle Gill" Gear="StartingGear_FungiRanger" Tile="Creatures/mush1.png" DetailColor="g">
 			<stat Name="Agility" Bonus="2" />
 			<skills>
 				<skill Name="Survival" />
@@ -11,21 +11,34 @@
 				<skill Name="Rifle_SteadyHands" />
 				<skill Name="Acrobatics_SwiftReflexes" />
 			</skills>
+
+			<extrainfo>Starts with Fickle Gill infection</extrainfo>
+
 		</subtype>
 
 		<subtype Name="Wax-Shelled Mushroom" Gear="StartingGear_FungiWax" Tile="Creatures/mush1.png" DetailColor="y">
-			<stat Name="Strength" Bonus="2" />
-			<stat Name="Toughness" Bonus="2" />
+			<stat Name="Toughness" Bnus="2" />
 			<skills>
 				<skill Name="Endurance_Weathered" />
 				<skill Name="Cudgel_Bludgeon" />
 				<skill Name="Endurance_Weathered" />
 			</skills>
-			<reputations>
-      			<reputation With="Fungi" Value="100" />
-    		</reputations>
 
-			<extrainfo>Starts with Waxflab infection on hands</extrainfo>
+			<extrainfo>Starts with Waxflab infection</extrainfo>
+		</subtype>
+
+		<subtype Name="Cave Fungus" Gear="StartingGear_Cave" Tile="Creatures/mush1.png" DetailColor="b">
+			<stat Name="Intelligence" Bonus="2" />
+			<skills>
+				<skill Name="Tinkering" />
+				<skill Name="Tinkering_Scavenger" />
+				<skill Name="Tinkering_Disassemble" />
+				<skill Name="Tinkering_Tinker1" />
+
+			</skills>
+
+			<extrainfo>Starts with Glowcrust infection</extrainfo>
+
 		</subtype>
 	</class>
 </subtypes>
