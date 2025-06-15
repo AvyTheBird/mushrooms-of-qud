@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <genotypes>
-  <genotype Name="Mushroom" MutationPoints="16" StatPoints="44" AllowedMutationCategories="*"
-    RandomWeight="10" DisplayName="Sentient Fungi" Subtypes="Mushrooms" Class="" Tile="Creatures/mush1.png"
+  <genotype Name="Mushroom" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*"
+    RandomWeight="10" DisplayName="Sentient Fungi" Subtypes="Mushrooms" Class="" Tile="Creatures/sw_shroom1.bmp"
     DetailColor="g" BodyObject="FungusBody" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="fungi"
     IsMutant="true" CharacterBuilderModules="">
 
@@ -26,9 +26,10 @@
       <reputation With="Fungi" Value="100" />
     </reputations>
 
+    <extrainfo>Mutations</extrainfo>
     <extrainfo>Has poison tolerance</extrainfo>
     <extrainfo>high Toughness and Willpower</extrainfo>
-    <extrainfo>More mutation points, but starts with a fungal infection</extrainfo>
+    <extrainfo>Starts with a fungal infection</extrainfo>
     <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
     <extrainfo>300 reputation with {{C|fungi}}</extrainfo>
   </genotype>
