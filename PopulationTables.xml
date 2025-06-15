@@ -21,7 +21,7 @@
             <object Name="Short Bow"/>
             <object Name="Wooden Arrow" Number="40-50"/>
 
-            <object Name="PuffInfection"/>
+            <object Blueprint="PuffInfection"/>
 
         </group>
     </population>
