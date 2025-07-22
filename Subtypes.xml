@@ -16,7 +16,7 @@
 
 		</subtype>
 
-		<subtype Name="Wax-Shelled Mushroom" Gear="StartingGear_FungiWax" Tile="Creatures/mush1.png" DetailColor="y">
+		<subtype Name="Wax-Shelled Mushroom" Gear="StartingGear_FungiWax" Tile="Creatures/mush2.png" DetailColor="y">
 			<stat Name="Toughness" Bnus="2" />
 			<skills>
 				<skill Name="Endurance_Weathered" />
@@ -27,7 +27,7 @@
 			<extrainfo>Starts with Waxflab infection</extrainfo>
 		</subtype>
 
-		<subtype Name="Cave Fungus" Gear="StartingGear_Cave" Tile="Creatures/mush1.png" DetailColor="b">
+		<subtype Name="Cave Fungus" Gear="StartingGear_Cave" Tile="Creatures/mush3.png" DetailColor="b">
 			<stat Name="Intelligence" Bonus="2" />
 			<skills>
 				<skill Name="Tinkering" />
